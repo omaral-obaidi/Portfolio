@@ -15,7 +15,7 @@ function AboutCard() {
             <br />I am currently completing a B.Sc. in Computer Engineering from
             <span className="purple"> Georgia Tech</span>, and have already
             completed a B.Sc. in Chemistry from{" "}
-            <span className="purple"> Emory University</span>
+            <span className="purple"> Emory University.</span>
             <br />
             <br />
             In my free time, my hobbies include:
