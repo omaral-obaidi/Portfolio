@@ -2,11 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -31,7 +27,7 @@ function Home2() {
               My fields of Interest relate to
               <i>
                 <b className="purple">Embedded Systems </b> and also to areas in{" "}
-                <b className="purple">software development.</b>
+                <b className="purple">Software Development.</b>
               </i>
               <br />
               <br />
@@ -57,10 +53,9 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
+            <h1>
+              <span className="purple">CONNECT </span> WITH ME
+            </h1>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
