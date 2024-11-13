@@ -26,8 +26,8 @@ function Home2() {
               <br />
               My fields of Interest relate to
               <i>
-                <b className="purple">Embedded Systems </b> and also to areas in{" "}
-                <b className="purple">Software Development.</b>
+                <b className="purple"> Embedded Systems </b> and also to areas
+                in <b className="purple">Software Development.</b>
               </i>
               <br />
               <br />

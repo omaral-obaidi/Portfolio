@@ -31,7 +31,7 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
+              title="Memly"
               description="Led the creative and consumer-focused design of Memly, a productivity app that enhances student work efficiency through utilization of Ebbinghaus’s Forgetting Curve hypothesis. Collaborated with team members on pitching strategies, conducted discussions on consumer analytics, and contributed to prototype development approaches, refining the app's design to better support learning retention and efficiency."
             />
           </Col>
