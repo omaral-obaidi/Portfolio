@@ -9,7 +9,7 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hello Everyone, I am <span className="purple">Omar Al-Obaidi </span>
-            from <span className="purple"> Baghdad, Iraq</span>
+            from <span className="purple"> Baghdad, Iraq.</span>
             <br />
             I am currently employed as a Full Stack Developer at Reffy.
             <br />I am currently completing a B.Sc. in Computer Engineering from
