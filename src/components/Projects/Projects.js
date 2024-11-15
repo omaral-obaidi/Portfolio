@@ -24,6 +24,7 @@ function Projects() {
               isBlog={false}
               title="Discovery: Raspberry Pi Powered Watch"
               description="Building a wearable watch using Raspberry Pi, focusing on feature selection, hardware connections, and functionality. Skills developed include wiring and soldering, PCB Fabrication, 3D printing, and integrating displays, RTC modules, and buttons. Final product will include rechargeable power management and custom 3D-printed case for comfort and durability."
+              ghLink="/Discovery"
             />
           </Col>
 
