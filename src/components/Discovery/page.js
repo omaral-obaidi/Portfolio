@@ -6,5 +6,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 function page() {
-  return {};
+  return {
+    "This is a dashboard";
+  };
 }
