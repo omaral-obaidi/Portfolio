@@ -13,9 +13,13 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        <Nav.Link as={Link} to="/about" onClick={() => updateExpanded(false)}>
-          {props.more}
-        </Nav.Link>
+        {more && (
+          <Nav.Item>
+            <Nav.Link as={Link} to={more} className="btn btn-primary">
+              More
+            </Nav.Link>
+          </Nav.Item>
+        )}
         <Button variant="primary" href={props.ghLink} target="_blank">
           <BsGithub /> &nbsp;
           {props.isBlog ? "Blog" : "More"}
