@@ -3,6 +3,8 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
+import { Nav } from "react-bootstrap"; // Import Nav for Nav.Link
+import { Link } from "react-router-dom"; // Import Link for routing
 
 function ProjectCards(props) {
   return (
