@@ -5,8 +5,6 @@ import Particle from "../Particle";
 import editor from "../../Assets/Projects/Logo2.png";
 import chatify from "../../Assets/Projects/rpw.png";
 import bitsOfCode from "../../Assets/Projects/memory.png";
-import { Link } from "react-bootstrap/lib/Navbar";
-import { Button } from "react-bootstrap/lib/InputGroup";
 
 function Projects() {
   return (
