@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Button from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import editor from "../../Assets/Projects/Logo2.png";
@@ -24,13 +25,22 @@ function Projects() {
               isBlog={false}
               title="Discovery: Raspberry Pi Powered Watch"
               description="Building a wearable watch using Raspberry Pi, focusing on feature selection, hardware connections, and functionality. Skills developed include wiring and soldering, PCB Fabrication, 3D printing, and integrating displays, RTC modules, and buttons. Final product will include rechargeable power management and custom 3D-printed case for comfort and durability."
+              ghLink="/project/discovery"
             />
+            {/* <Button
+              variant="primary"
+              href={"/project/discovery"}
+              target="_blank"
+            >
+              <BsGithub /> &nbsp;
+              {props.isBlog ? "Blog" : "More"}
+            </Button> */}
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
-              isBlog={false}
+              isBlog={true}
               title="Memly"
               description="Led the creative and consumer-focused design of Memly, a productivity app that enhances student work efficiency through utilization of Ebbinghaus’s Forgetting Curve hypothesis. Collaborated with team members on pitching strategies, conducted discussions on consumer analytics, and contributed to prototype development approaches, refining the app's design to better support learning retention and efficiency."
             />
